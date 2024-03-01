@@ -1,0 +1,22 @@
+.avatar {
+  height: 150px;
+  border: 1px solid;
+  border-bottom: none;
+}
+
+.user_body {
+  height: max-content;
+}
+
+.user_body div {
+  border: 1px solid black;
+  font-size: 12px;
+  padding: 4px;
+  border-bottom: none;
+  text-align: center;
+  height: 50px;
+}
+
+.user_body div:last-child {
+  border-bottom: 1px solid black;
+}
